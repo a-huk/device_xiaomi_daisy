@@ -1,0 +1,10 @@
+[
+  {
+    "repository"  : "kernel_xiaomi_daisy",
+    "target_path" : "kernel/xiaomi/daisy"
+  },
+  {
+    "repository"  : "vendor_xiaomi_daisy",
+    "target_path" : "vendor/xiaomi/daisy"
+  }
+]
