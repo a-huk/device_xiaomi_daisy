@@ -1,7 +1,7 @@
 [
   {
     "repository"  : "kernel_xiaomi_daisy",
-    "target_path" : "kernel/xiaomi/daisy"
+    "target_path" : "kernel/xiaomi/msm8953"
   },
   {
     "repository"  : "vendor_xiaomi_daisy",
