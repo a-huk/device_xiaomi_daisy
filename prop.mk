@@ -150,6 +150,10 @@ vendor.display.disable_skip_validate=1 \
 vendor.gralloc.enable_fb_ubwc=1 \
 persist.vendor.max.brightness=475
 
+# Display cutout
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.potato.has_cutout=true
+
 # DPM
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.dpm.feature=1
