@@ -605,5 +605,11 @@ service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
     interface android.hardware.audio@2.0::IDevicesFactory default
     onrestart restart audioserver
 
+service vendor.power_off_alarm /vendor/bin/power_off_alarm
+    class core
+    group system
+    disabled
+    oneshot
+
 on property:dev.bootcomplete=1
     swapon_all /vendor/etc/fstab.qcom
