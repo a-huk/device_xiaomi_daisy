@@ -2,12 +2,8 @@ Personal file with notes
 
 TODO:
 - Fix WFD
-- Fix CAMERA HAL Switcher
-	Maybe add persist.vendor.camera.HAL3.enabled=1
-	Logs seem to indicate that it is denied by selinux/sepolicy but no denied logs
 - Fix LED notifications
 - CTS status fix
-- Check VoWIFI/VoLTE working
 - Sign builds
 - Power-off alarm
     E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.alarm::IAlarm sid=u:r:platform_app:s0:c512,c768 pid=2781 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:hal_alarm_qti_hwservice:s0 tclass=hwservice_manager permissive=0
@@ -17,3 +13,5 @@ TODO:
 Done:
 - 02/03/2021 Hotspot works
 - 02/03/2021 Wireless ADB works
+- 02/03/2021 HAL1/3 Switch working
+- 02/04/2021 VoWIFI/VoLTE should be working
