@@ -5,13 +5,11 @@ TODO:
 - Fix LED notifications
 - CTS status fix
 - Sign builds
-- Power-off alarm
-    E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.alarm::IAlarm sid=u:r:platform_app:s0:c512,c768 pid=2781 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:hal_alarm_qti_hwservice:s0 tclass=hwservice_manager permissive=0
-    E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.alarm::IAlarm sid=u:r:platform_app:s0:c512,c768 pid=2799 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:hal_alarm_qti_hwservice:s0 tclass=hwservice_manager permissive=0
-	Selinux fix probably
+
 
 Done:
 - 02/03/2021 Hotspot works
 - 02/03/2021 Wireless ADB works
 - 02/03/2021 HAL1/3 Switch working
 - 02/04/2021 VoWIFI/VoLTE should be working
+- 02/04/2021 Power-off alarm should be working
