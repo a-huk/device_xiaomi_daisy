@@ -35,7 +35,7 @@ PRODUCT_DEVICE := daisy
 PRODUCT_NAME := lineage_daisy
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Xiaomi Mi A2 Lite
+PRODUCT_MODEL := Mi A2 Lite
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 
