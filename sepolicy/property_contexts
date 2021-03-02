@@ -14,4 +14,4 @@ wifi.active.interface      u:object_r:exported_wifi_prop:s0
 persist.audio.dirac.                                          u:object_r:dirac_prop:s0
 
 # HAL3 | HAL1 Switch
-persist.camera.profile     u:object_r:camera_prop:s0
+persist.camera.profile                                        u:object_r:camera_prop:s0
