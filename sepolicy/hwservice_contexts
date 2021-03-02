@@ -1,5 +1,7 @@
+vendor.qti.hardware.alarm::IAlarm                            u:object_r:hal_alarm_qti_hwservice:s0
 vendor.qti.hardware.slmadapter::ISlmAdapter	u:object_r:hal_slmadapter_hwservice:s0
 vendor.goodix.hardware.fingerprint::IGoodixBiometricsFingerprint       u:object_r:hal_fingerprint_hwservice:s0
 com.fingerprints.extension::IFingerprintEngineering                    u:object_r:goodix_fp_hwservice:s0
 com.fingerprints.extension::IFingerprintSensorTest                     u:object_r:goodix_fp_hwservice:s0
 com.fingerprints.extension::IFingerprintNavigation                     u:object_r:goodix_fp_hwservice:s0
+
