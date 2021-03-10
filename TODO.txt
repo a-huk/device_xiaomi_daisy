@@ -10,7 +10,8 @@ TODO:
 - Check VoWIFI/VoLTE working
 - Sign builds
 - Power-off alarm
-	03-02 13:42:23.323   449   449 E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.alarm::IAlarm sid=u:r:platform_app:s0:c512,c768 pid=2781 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:hal_alarm_qti_hwservice:s0 tclass=hwservice_manager permissive=0
+    E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.alarm::IAlarm sid=u:r:platform_app:s0:c512,c768 pid=2781 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:hal_alarm_qti_hwservice:s0 tclass=hwservice_manager permissive=0
+    E SELinux : avc:  denied  { find } for interface=vendor.qti.hardware.alarm::IAlarm sid=u:r:platform_app:s0:c512,c768 pid=2799 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:hal_alarm_qti_hwservice:s0 tclass=hwservice_manager permissive=0
 	Selinux fix probably
 
 Done:
