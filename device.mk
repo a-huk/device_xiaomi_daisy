@@ -92,7 +92,7 @@ PRODUCT_PACKAGES += \
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl:32 \
-    android.hardware.audio.service \
+    android.hardware.audio@2.0-service \
     android.hardware.audio.effect@6.0-impl:32 \
     android.hardware.soundtrigger@2.2-impl:32 \
     audio.bluetooth.default \
@@ -220,9 +220,13 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.qti \
     libdisplayconfig.qti.vendor \
     liboverlay \
+    libqdMetaData.system \
+    libqdMetaData \
     libgenlock \
     libtinyxml \
     libvulkan \
+    libqdMetaData \
+    libqdMetaData.vendor \
     vendor.display.config@2.0 \
     libstagefright_enc_common \
     vendor.display.config@2.0.vendor
@@ -360,11 +364,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libjson
 
-# QTI Common
-TARGET_COMMON_QTI_COMPONENTS := \
-        perf \
-        wfd
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
@@ -488,3 +487,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     charger_res_images \
     product_charger_res_images
+
+
+# Wi-Fi Display
+PRODUCT_PACKAGES += \
+    libaacwrapper \
+    libnl \
+    libmediaextractorservice
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
