@@ -1,2 +1,1 @@
-allow crash_dump qcom_ims_prop:file { getattr };
 allow crash_dump crash_dump:capability { sys_admin };
