@@ -41,16 +41,11 @@ TARGET_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="sunfish-user 11 RQ1A.210105.002 6985033 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := xiaomi/tissot/tissot_sprout:8.0.0/OPR1.170623.026/8.1.10:user/release-keys
-BUILD_DESC := tissot-user 8.0.0 OPR1.170623.026 8.1.10 release-keys
-
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.build.fingerprint=$(BUILD_FINGERPRINT)
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="$(BUILD_DESCRIPTION)"
+BUILD_FINGERPRINT := "google/sunfish/sunfish:11/RQ1A.210105.002/6985033:user/release-keys"
 
 # Lineage Updater
 PRODUCT_PROPERTY_OVERRIDES += \
