@@ -3,7 +3,6 @@ typeattribute qti_init_shell data_between_core_and_vendor_violators;
 allow qti_init_shell proc_touchpanel:dir { r_dir_perms setattr };
 allow qti_init_shell proc_touchpanel:file { getattr setattr };
 allow qti_init_shell bluetooth_data_file:file r_file_perms;
-allow qti_init_shell fm_prop:property_service set;
 allow qti_init_shell vfat:dir { search };
 allow qti_init_shell vfat:dir { read };
 allow qti_init_shell vfat:file { getattr };
