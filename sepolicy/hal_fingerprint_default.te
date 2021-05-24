@@ -32,4 +32,3 @@ r_dir_file(hal_fingerprint_default, sysfs_leds)
 r_dir_file(hal_fingerprint_default, vfat)
 
 allow hal_fingerprint_default goodix_fp_hwservice:hwservice_manager add;
-allow hal_fingerprint_default goodix_fp_hwservice:hwservice_manager {find};

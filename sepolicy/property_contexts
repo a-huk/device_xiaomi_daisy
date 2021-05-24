@@ -1,4 +1,4 @@
-ctl.imsrcsd					u:object_r:ctl_vendor_imsrcsservice_prop:s0
+ctl.imsrcsd					u:object_r:vendor_ctl_vendor_imsrcsservice_prop:s0
 sys.fp.goodix					u:object_r:fingerprint_prop:s0
 sys.fp.vendor					u:object_r:fingerprint_prop:s0
 
@@ -7,11 +7,9 @@ sys.listeners.registered   u:object_r:vendor_tee_listener_prop:s0
 sys.post_boot.parsed       u:object_r:vendor_mpctl_prop:s0
 persist.net.doxlat         u:object_r:vendor_xlat_prop:s0
 camera.dual.mode           u:object_r:camera_prop:s0
+persist.camera.            u:object_r:camera_prop:s0
 hardware.camera.autohdr    u:object_r:camera_prop:s0
 wifi.active.interface      u:object_r:exported_wifi_prop:s0
 
 # Dirac
 persist.audio.dirac.                                          u:object_r:dirac_prop:s0
-
-# HAL3 | HAL1 Switch
-persist.camera      u:object_r:system_prop:s0

@@ -1,4 +1,2 @@
 allow radio gpuservice:binder { call };
 allow radio system_app_data_file:dir { getattr };
-allow radio hal_datafactory_hwservice:hwservice_manager find;
-
