@@ -49,7 +49,7 @@ BUILD_FINGERPRINT := "google/sunfish/sunfish:11/RQ1A.210105.002/6985033:user/rel
 
 # Lineage Updater
 PRODUCT_PROPERTY_OVERRIDES += \
-    lineage.updater.uri=https://raw.githubusercontent.com/a-huk/otaserver/master/1803-04.json
+    lineage.updater.uri=https://raw.githubusercontent.com/a-huk/otaserver/master/1802-03.json
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
