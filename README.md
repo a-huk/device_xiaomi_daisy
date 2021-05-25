@@ -23,4 +23,4 @@ Xiaomi Mi A2 Lite was announced and released in July 2018.
 
 ## Device picture
 
-![Xiaomi Mi A2 Lite](https://i.imgur.com/37raZZt.png)
+![Xiaomi Mi A2 Lite](https://i.imgur.com/X72ulmA.png)
